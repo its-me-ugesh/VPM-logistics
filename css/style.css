@@ -1830,6 +1830,7 @@ label {
     -webkit-transform: rotate(360deg);
   }
 }
+
 .slider-golve-bike {
 	position: absolute;
 	left: 19.6%;
@@ -2200,12 +2201,14 @@ label {
 	line-height: 28px;
 }
 .single-services {
-	border-radius: 5px;
+	border-radius: 10px;
 	box-shadow: 0px 0px 43px 0px rgba(40, 11, 72, 0.11);
 	background: #fff;
 }
 .services-thumb img {
 	width: 100%;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
 }
 .services-content {
 	padding: 0 30px 35px;
@@ -4962,6 +4965,15 @@ blockquote.classic-blockquote-post::after {
   .ctn-preloader .animation-preloader .txt-loading {
     font: bold 3.5em "Poppins", sans-serif;
   }
+}
+@media screen and (max-width: 1250px) {
+
+    .slider-golve-bike {
+	display: none;
+}
+.slide-golve-car {
+	display: none;
+}
 }
 
 @media screen and (max-width: 500px) {
