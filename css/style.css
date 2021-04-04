@@ -1846,14 +1846,16 @@ label {
 	border-radius: 50%;
 	text-align: center;
 	transform: rotate(8deg);
+
 }
 .slider-plane {
 	position: absolute;
 	left: 75px;
-	bottom: 35%;
+	bottom: 45%;
 	transform: translate3d(0, 0px, 0px);
-	animation: 10s planeMove;
-	opacity: 0;
+	animation: 20s planeMove;
+	opacity: 75%;
+/*    animation-delay: .2s;*/
 }
 @keyframes planeMove {
   0% {
@@ -4967,7 +4969,7 @@ blockquote.classic-blockquote-post::after {
   }
 }
 @media screen and (max-width: 1250px) {
-
+    
     .slider-golve-bike {
 	display: none;
 }
